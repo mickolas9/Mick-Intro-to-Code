@@ -33,6 +33,13 @@ body {
 
 header {
   background: #585c7c;
+  position: fixed;
+  z-index: 9;
+  width: 100%
+}
+
+main {
+  padding-top: 148px;
 }
 
 .pg-padding {
@@ -47,6 +54,7 @@ header {
   display: grid;
   grid-template-columns: 3fr 2fr 1fr;
   grid-gap: 50px;
+  position: relative;
 }
 
 .gold-bkg {
@@ -141,6 +149,9 @@ h3 {
 .button-gold {
   background: var(--Gold, #ffb859);
   box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
+  position:absolute;
+  bottom: 20px;
+  right: 20px;
 }
 
 .button-gold:hover {
